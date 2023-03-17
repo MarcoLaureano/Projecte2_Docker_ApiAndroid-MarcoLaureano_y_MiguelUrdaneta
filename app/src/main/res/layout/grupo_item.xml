@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/grupid"
+            android:layout_marginLeft="10dp"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:hint="id"
+            android:background="@drawable/border_colorteal1"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/grup"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:background="@drawable/border_colorteal1"
+            android:hint="grup"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ciclo"
+            android:layout_marginLeft="10dp"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_colorteal1"
+            android:textAlignment="center"
+            android:hint="ciclo"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/aula"
+            android:layout_marginLeft="10dp"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_colorteal1"
+            android:textAlignment="center"
+            android:hint="aula"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/curs"
+            android:layout_marginLeft="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_colorteal1"
+            android:hint="curs"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
